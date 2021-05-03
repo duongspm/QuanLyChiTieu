@@ -222,32 +222,7 @@ const KhoanThu = ({navigation}) => {
                     </TouchableOpacity>
                 </View>
             </View>
-            <View style={styles.container}>
-                <View style={{flexDirection: "row",alignSelf: "center",}}>
-                    <Text style={{fontFamily: "RobotoBold",color: "#4b3ca7",fontSize: 20,}}>Lãnh lương</Text>
-                    <Text style={{fontSize: 20,color: "#a2a2db",paddingHorizontal: 14,}}>{" "}- - - - - - - - - -</Text>
-                    <Text style={{fontFamily: "RobotoBold",color: "#4b3ca7",fontSize: 20,}}>Tháng 04</Text>
-                </View>
-
-                <View style={{flexDirection: "row",marginTop: -5,alignItems: "center",}}>
-                    <Text style={{fontFamily: "RobotoRegular",color: "#a2a2db",fontSize: 11,}}>New York</Text>
-                    <Text style={{fontSize: 11,fontFamily: "RobotoRegular",color: "#a2a2db",paddingLeft: 112,}}>Indonesia</Text>
-                </View>
-
-                <View style={{flexDirection: "row",marginTop: 10,alignItems: "center",}}>
-                    <Text style={{fontFamily: "RobotoRegular",color: "#522289",fontSize: 16,}}>09:00 AM</Text>
-                    <Text style={{fontFamily: "RobotoRegular",color: "#522289",paddingLeft: 70,fontSize: 16,}}>21:00 PM</Text>
-                </View>
-
-                    <Text style={{fontFamily: "RobotoRegular",color: "#a2a2db",fontSize: 12,}}>20JUNe, 2021</Text>
-                    
-                    <Text style={{fontSize: 17,marginRight: -5,marginVertical: 8,color: "#a2a2db",}}>- - - - - - - - - - - - - - - - - - - - - - -</Text>
-
-                <View style={{flexDirection: "row",marginTop: -8,alignItems: "center",}}>
-                    <Text style={{fontFamily: "RobotoRegular",color: "#522289",fontSize: 16,}}>Mức lương</Text>
-                    <Text style={{fontFamily: "RobotoBold",color: "#4b3ca7",paddingLeft: 75,fontSize: 16,}}>$400</Text>
-                </View>
-            </View>
+            
         </View>
     )
 }

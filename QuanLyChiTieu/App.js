@@ -12,7 +12,7 @@
  } from 'react-native';
  import {NavigationContainer} from "@react-navigation/native";
  import {createStackNavigator} from '@react-navigation/stack';
- import {KhoanThu, Login, ChangePassword, ThongKe } from './screens';
+ import {KhoanThu, Login, ChangePassword, ThongKe, ThemKT, ThemKC } from './screens';
  import Menu from './navigation/Menu';
 
 
@@ -31,6 +31,8 @@
                  <Stack.Screen name='Login' component = {Login}/>
                  <Stack.Screen name='KhoanThu' component = {Menu}/>
                  <Stack.Screen name='ChangePassword' component = {ChangePassword}/>
+                 <Stack.Screen name='ThemKT' component = {ThemKT}/>
+                 <Stack.Screen name='ThemKC' component = {ThemKC}/>
                
 
              </Stack.Navigator>

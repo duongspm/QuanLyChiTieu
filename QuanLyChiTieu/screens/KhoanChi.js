@@ -49,53 +49,23 @@ const KhoanChi = ({navigation}) => {
                     <Text style={{
                         color:'#fff',
                         fontWeight:'700',
-                        fontSize:50
-                    }}>1,500,000 vnđ</Text>
+                        fontSize:40
+                    }}>-1,500,000 vnđ</Text>
                 </View>
 
                 <View style={{
                         height:1000,
                         width:'100%',
                         backgroundColor:'#fff',
-                        marginTop:50,
-                        borderTopLeftRadius:30,
-                        borderTopRightRadius:30,
+                        marginTop:30,
+                        borderTopLeftRadius:10,
+                        borderTopRightRadius:10,
                     }}>
-                        <View style={{flexDirection:'row', paddingTop:20, padding:50}}>
-                            <TouchableOpacity
-                                style={{
-                                paddingVertical:6,
-                                borderBottomWidth:4,
-                                }}
-                                >
-                                <Text style={{
-                                    fontWeight:'bold',
-                                    fontSize:25,
-                                    //color:this.state.todaySelected ? '#00192D' : '#8e9aaf',
-
-                                }}>HÔM NAY</Text>
-                            </TouchableOpacity>
-
-                            <TouchableOpacity 
-                                
-                                    style={{
-                                        marginLeft:30,
-                                        borderBottomWidth:4,
-                                        paddingVertical:6,
-                                        }}
-                                    >
-                                <Text style={{
-                                        fontWeight:'bold',
-                                        fontSize:25,
-                                        opacity:0.5
-                                    }}>THÁNG</Text>
-                            </TouchableOpacity>
-
-                        </View>
+                        
 
                         <View style={{flexDirection:'row', justifyContent:'space-between', marginHorizontal:30}}>
                             <Text style={{fontSize:30, fontWeight:'bold'}}>04/05/2021</Text>
-                            <Text style={{fontSize:30, fontWeight:'bold', color:'#e76f51'}}>670</Text>
+                            <Text style={{fontSize:30, fontWeight:'bold', color:'#e76f51'}}></Text>
                         </View>
                         <View style={{borderBottomWidth:2, width:'85%', marginLeft:30, marginTop:20, opacity:0.3}}></View>
                         <View style={{width:'100%', height:'30%'}}>
